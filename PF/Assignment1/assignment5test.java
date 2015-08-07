@@ -29,12 +29,14 @@ public class assignment5test {
 	@Test
 	public void test() {
 		assignment5 test5=new assignment5();
+		
 		int output1=test5.checkArraySort(new int[]{1,2,3,4,5});
 		int output2=test5.checkArraySort(new int[]{5,4,3,2,1});
 		int output3=test5.checkArraySort(new int[]{1,2,4,3,5});
-		assertEquals("",1,output1);
-		assertEquals("",2,output2);
-		assertEquals("",0,output3);
+		
+		assertEquals("",1,output1); // to check ascending array
+		assertEquals("",2,output2); // to check descending array
+		assertEquals("",0,output3); // to check an unordered array
 		//fail("Not yet implemented");
 	}
 

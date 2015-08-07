@@ -30,6 +30,8 @@ public class assignment4test {
 	public void test() {
 		assignment4 test4=new assignment4();
 		int [][]output=test4.FCFS(new int[]{1,5,9,25}, new int[]{12,7,2,5});
+		
+		// test each row of 2D array individually
 		assertArrayEquals(new int[]{1,1,0,1,12},output[0]);
 		assertArrayEquals(new int[]{2,5,8,13,19},output[1]);
 		assertArrayEquals(new int[]{3,9,11,20,21},output[2]);

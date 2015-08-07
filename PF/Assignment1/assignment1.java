@@ -3,37 +3,42 @@ import java.util.*;
 
 public class assignment1 {
 	
-	public int convertBinaryToOctal(int n)
+	public int convertBinaryToOctal (int n)
 	{
 		int countDigits=0;
-		int m;
+		int m,i;
 		int decNumber=0;
 		m=n;
-		while(n!=0)
+		// count digits of binary number
+		while (n!=0)
 		{
 			n=n/10;
 			countDigits++;
 		}
-		for(int i=0;i<countDigits;i++)
+		
+		//convert binary to decimal
+		for (i=0;i<countDigits;i++)
 		{
 			decNumber=decNumber+(m%10)*power(2,i);
 			m=m/10;
 		}
-		int i=1;
+		i=1;
 		int octalNumber=0;
-		while(decNumber!=0)
+		//convert decimal to octal
+		while (decNumber!=0)
 		{
 			octalNumber=octalNumber+(decNumber%8)*i;
 			decNumber=decNumber/8;
 			
 			i=i*10;
 		}
+		
 		return octalNumber;
 	}
-	public int power(int x, int n)
+	public int power (int x, int n)
 	{
 		int pow=1;
-		for(int i=1;i<=n;i++)
+		for (int i=1;i<=n;i++)
 		{
 			pow=pow*x;
 		}

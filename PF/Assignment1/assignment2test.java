@@ -28,6 +28,7 @@ public class assignment2test {
 
 	@Test
 	public void test() {
+		
 		assignment2 test2=new assignment2();
 		int []output=test2.removeDuplicate(new int[]{2,5,4,6,3,8,5,9,3,3,6,3,9,0});
 		assertArrayEquals(new int[]{2,5,4,6,3,8,9,0},output);

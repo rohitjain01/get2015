@@ -28,9 +28,9 @@ public class assignment1test {
 
 	@Test
 	public void test() {
-		assignment1 test1=new assignment1();
-		int output=test1.convertBinaryToOctal(110101);
-		assertEquals("",65,output);
+		assignment1 test1=new assignment1();          
+		int output=test1.convertBinaryToOctal(110101); // convert binary to octal by the method of assignment1
+		assertEquals("",65,output); // check weather output is correct or not
 		//fail("Not yet implemented");
 	}
 
