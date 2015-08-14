@@ -1,5 +1,6 @@
+package ThirdProgram;
 
 public interface Shape {
-	void draw();
+	String draw();
 	double getArea();
 }

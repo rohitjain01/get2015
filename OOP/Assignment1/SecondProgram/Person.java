@@ -1,3 +1,4 @@
+package SecondProgram;
 public class Person {
 	private int uid;
 	private String name;

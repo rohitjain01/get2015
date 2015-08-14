@@ -1,3 +1,4 @@
+package ThirdProgram;
 
 public class Circle implements Shape{
 	int radius;
@@ -5,9 +6,8 @@ public class Circle implements Shape{
 		this.radius=radius;
 	}
 	@Override
-	public void draw() {
-		// TODO Auto-generated method stub
-		
+	public String draw() {
+		return "Circle is drawn";
 	}
 
 	@Override

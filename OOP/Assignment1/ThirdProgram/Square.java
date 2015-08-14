@@ -1,3 +1,4 @@
+package ThirdProgram;
 
 public class Square implements Shape {
 	private int side;
@@ -5,15 +6,12 @@ public class Square implements Shape {
 		this.side=side;
 	}
 	@Override
-	public void draw() {
-		// TODO Auto-generated method stub
-		
-		
+	public String draw() {
+		return "Sqaure is drawn";
 	}
 
 	@Override
 	public double getArea() {
-		// TODO Auto-generated method stub
 		double area=side*side;
 		return area;
 	}

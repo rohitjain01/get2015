@@ -1,8 +1,9 @@
+package FourthProgram;
 import java.util.HashMap;
 
 public class MainServiceStation {
 	public static void main(String args[]){
-		ServiceStation serviceStation = new ServiceStation();
+		ServiceStation serviceStation = new ServiceStation("D:\\Mechanics.txt","D:\\Cars.txt");
 		serviceStation.readMechanics();
 		serviceStation.readCars();
 		serviceStation.doAllotment();
@@ -17,3 +18,4 @@ public class MainServiceStation {
 		System.out.println("Total Earning \t " + serviceStation.getEarning());
 	}
 }
+

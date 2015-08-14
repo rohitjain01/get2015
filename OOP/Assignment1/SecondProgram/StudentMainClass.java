@@ -1,3 +1,4 @@
+package SecondProgram;
 
 public class StudentMainClass {
 	

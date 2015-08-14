@@ -22,13 +22,6 @@ public class Matrix {
 			}
 			System.out.print("\n");
 		}
-		/*
-		for(int r=0;r<noRows;r++){
-			for(int c=0;c<noCols;c++){
-				matrix3.data[r][c]=transpose[r][c];
-			}
-		}*/
-
 		return matrix3;
 	}
 	

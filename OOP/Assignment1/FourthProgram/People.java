@@ -1,5 +1,6 @@
+package FourthProgram;
 
 public abstract class People {
-	String mechID;
+	String ID;
 	String name;
 }
