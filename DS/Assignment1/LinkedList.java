@@ -47,16 +47,17 @@ public class LinkedList {
 		if (index == 0) {
 			newNode.setNext(start);
 			start = newNode;
-		}
-		for (count = 0; count < index - 1; count++) {
-			temp = temp.getNext();
-			if (temp == null) {
-				System.out.println("Node in the list is at less than one");
-				return;
+		} else {
+			for (count = 0; count < index - 1; count++) {
+				temp = temp.getNext();
+				if (temp == null) {
+					System.out.println("Node in the list is at less than one");
+					return;
+				}
 			}
+			newNode.setNext(temp.getNext());
+			temp.setNext(newNode);
 		}
-		newNode.setNext(temp.getNext());
-		temp.setNext(newNode);
 		size = +1;
 	}
 
@@ -79,6 +80,10 @@ public class LinkedList {
 	void retrievalAtIndex(int index) {
 		Node temp = start;
 		int count;
+		if (size < index) {
+			System.out.println("Enter valid index position ");
+			return;
+		}
 		try {
 			for (count = 1; count <= index; count++) {
 				temp = temp.getNext();

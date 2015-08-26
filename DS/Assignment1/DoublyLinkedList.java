@@ -7,6 +7,7 @@ import java.util.Scanner;
 public class DoublyLinkedList {
 
 	public DoublyNode start;
+	int size=0;
 	private static Scanner sc;
 
 	/**
@@ -26,6 +27,7 @@ public class DoublyLinkedList {
 			temp.setNext(newNode);
 			newNode.setPrev(temp);
 		}
+		size=+1;
 	}
 
 	/**
@@ -38,11 +40,15 @@ public class DoublyLinkedList {
 		DoublyNode newNode = new DoublyNode(item, null, null);
 		DoublyNode temp = start;
 		int count;
+		if(index> size){
+			System.out.println("Invalid position");
+		}
 		if (index == 0) {
 			newNode.setNext(start);
 			newNode.setPrev(null);
 			start = newNode;
 		}
+		else{
 		for (count = 0; count < index - 1; count++) {
 			temp = temp.getNext();
 			if (temp == null) {
@@ -54,7 +60,8 @@ public class DoublyLinkedList {
 		newNode.setPrev(temp);
 		temp.setNext(newNode);
 		temp.setPrev(newNode.getPrev());
-
+		}
+		size=+1;
 	}
 
 	/**
@@ -76,6 +83,9 @@ public class DoublyLinkedList {
 	void retrievalAtIndex(int index) {
 		DoublyNode temp = start;
 		int count;
+		if(index> size){
+			System.out.println("Invalid position");
+		}
 		for (count = 1; count <= index; count++) {
 			temp = temp.getNext();
 		}
@@ -89,6 +99,9 @@ public class DoublyLinkedList {
 	public void deleteItemOnIndex(int index) {
 		DoublyNode temp = null, current = start;
 		int count;
+		if(index> size){
+			System.out.println("Invalid position");
+		}
 		if (index == 0) {
 			start = current.getNext();
 		} else {
@@ -100,6 +113,7 @@ public class DoublyLinkedList {
 			temp.setNext(current.getNext());
 			temp.setPrev(current.getPrev());
 		}
+		size=-1;
 	}
 
 	/**
@@ -128,6 +142,7 @@ public class DoublyLinkedList {
 				current = current.getNext();
 			}
 		}
+		size=-1;
 	}
 
 	/**
