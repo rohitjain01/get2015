@@ -1,4 +1,4 @@
-Module         		: Data Structures
+Module         		: DBMS
 Assignment for Session	: DBMS-Session1
 Author			: Rohit
 
