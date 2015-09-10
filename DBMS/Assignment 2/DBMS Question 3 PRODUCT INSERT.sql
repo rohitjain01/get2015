@@ -2,7 +2,7 @@ INSERT INTO topcategory(topcategory_id,TopCategoryName) VALUES (1,'Mobiles & Tab
 INSERT INTO topcategory(TopCategoryName) VALUES ('Computers');
 INSERT INTO topcategory(TopCategoryName) VALUES ('Home Appliances');
 
--- Inserting the sub category
+
 INSERT INTO supercategory(supercategory_id,superCategoryName,topcategory_id) VALUES(1,'MOBILES',1);
 INSERT INTO supercategory(superCategoryName,topcategory_id) VALUES('TABLETS',1);
 INSERT INTO supercategory(superCategoryName,topcategory_id) VALUES('ACCESSORIES',1);

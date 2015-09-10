@@ -4,7 +4,6 @@ USE eCommerce2;
 
 CREATE TABLE topcategory
 (
-    -- To sid , name, parent id
     topcategory_id INTEGER AUTO_INCREMENT  NOT NULL  PRIMARY KEY , 
     TopCategoryName VARCHAR(30) NOT NULL
 );
@@ -16,9 +15,7 @@ CREATE TABLE supercategory(
     FOREIGN KEY(topcategory_ID) REFERENCES topcategory(topcategory_ID) ON DELETE CASCADE ON UPDATE CASCADE
 );
 
-CREATE TABLE category
-(
-    -- To sid , name, parent id
+CREATE TABLE catego
     category_id INTEGER AUTO_INCREMENT  NOT NULL  PRIMARY KEY , 
     CategoryName VARCHAR(30) NOT NULL,
     supercategory_id INTEGER,
@@ -27,7 +24,6 @@ CREATE TABLE category
 
 CREATE TABLE subcategory
 (
-    -- To sid , name, parent id
     subcategory_id INTEGER AUTO_INCREMENT  NOT NULL  PRIMARY KEY , 
     subCategoryName VARCHAR(30) NOT NULL,
     category_id INTEGER,
