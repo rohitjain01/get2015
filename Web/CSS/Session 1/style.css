@@ -1,0 +1,53 @@
+
+	#wrapper
+	{
+		margin: 0 auto;
+		border: 10px solid lavender;
+		border-top: 20px solid lavender;
+		height: 500px;
+		width: 500px;
+	}
+	
+	.header
+	{
+		border: 2px solid blue;
+		background-color: #AED1ED;
+		height: 50px;
+		width: 480px;
+		margin-top: 12px;
+		margin-left: 10px;
+	}	
+	
+	.profile{
+		height:20px;
+		font-size: 20px;
+		color: blue;
+		padding-left:12px;
+		font-weight:bold;
+	}
+	
+	.pic
+	{
+		border:4px solid lightgrey;
+		background-color: black;
+		height: 176px;
+		width: 176px;
+		margin-top: 12px;
+		margin-left: 10px;
+	}
+	
+	.content
+	{
+		border: 0px solid black;
+		margin-top: -185px;
+		margin-left: 200px;
+	}
+	
+	.heading{
+		font-weight:bold;
+	}
+	
+	td{
+		font-size:12px;
+	}
+	
