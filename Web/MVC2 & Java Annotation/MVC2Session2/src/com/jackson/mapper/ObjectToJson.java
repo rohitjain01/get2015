@@ -1,5 +1,5 @@
 /**
- * @author Pooja Khandelwal
+ * @author Rohit
  * @created date 16/10/2015
  * @Name ObjectToJson 
  * @description this is the class having method to convert  employee object to JSon file
@@ -23,17 +23,17 @@ public class ObjectToJson {
 	 */
 	public static void convertObjectToJson() {
 		EmployeeModel employee = new EmployeeModel();
-		employee.setEmployeeName("pooja");
+		employee.setEmployeeName("Rohit");
 		employee.setEmployeeId(101);
 		employee.setCtcPerAnnum(100000000);
-		employee.setDateOfBirth("08/03/1995");
-		employee.setEmailId("pooja@gmail.com");
+		employee.setDateOfBirth("28/03/1994");
+		employee.setEmailId("rohit@gmail.com");
 		employee.setDateOfJoining("03/08/2015");
 		ObjectMapper mapper = new ObjectMapper();
 		try {
 			mapper.writeValue(
 					new File(
-							"c:\\Users\\Pooja\\training\\MVC_Session-2\\src\\com\\jackson\\files\\employeeJsonFromEmployeeModel.json"),
+							"D:\\New folder\\MVC_Session-2\\src\\com\\jackson\\files\\employeeJsonFromEmployeeModel.json"),
 					employee);
 			System.out.println(mapper.writeValueAsString(employee));
 		} catch (JsonGenerationException e) {
