@@ -1,5 +1,5 @@
 /**
- * @author Pooja Khandelwal
+ * @author Rohit
  * @created date 16/10/2015
  * @Name JsonToObject 
  * @description this is the class having method to convert JSon file to employee object
@@ -29,7 +29,7 @@ public class JsonToObject {
 			EmployeeModel employee = mapper
 					.readValue(
 							new File(
-									"c:\\Users\\Pooja\\training\\MVC_Session-2\\src\\com\\jackson\\files\\employee.json"),
+									"D:\\New folder\\MVC_Session-2\\src\\com\\jackson\\files\\employee.json"),
 							EmployeeModel.class);
 			System.out.println(employee.toString());
 		} catch (JsonGenerationException e) {
