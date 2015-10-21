@@ -1,0 +1,77 @@
+<html>
+	<head>
+		<title>my javascript Registration</title>
+		<link rel = "stylesheet" type = "text/css" href = "css/style.css"></link>
+		<script type="text/javascript" src="js/session1.js"></script>
+	</head>
+	<body>
+		
+		<form id="myform">
+			<fieldset>
+				<legend>::Registration::</legend>
+					<table align ="center">
+						<tr>
+							<td class="text">First Name *</td> 
+							<td><input type="text" id="first"  maxlength="15" placeholder="Enter first name" class="field"></td>
+						</tr>
+						<tr>
+							<td class="text">Last Name *</td> 
+							<td><input type="text" id="last"  maxlength="15" placeholder="Enter last name" class="field"></td>
+						</tr>
+						<tr>
+							<td class="text">Password *</td>
+							<td><input type="password" id="password"  maxlength="15" placeholder="Enter password min 8 characters" class="field"></td>
+						</tr>
+						<tr>
+							<td class="text">Re-Enter Password *</td>
+							<td><input type="password" id="confirm"   maxlength="15"  placeholder="Re enter password" class="field"></td>
+						</tr>
+						<tr>
+							<td class="text">Enter Age *</td>
+							<td><input type="number" id="age"  min="18" max="99" step="any" placeholder="Enter age between 18 and 100" class="field"></td>
+						</tr>
+						<tr>
+							<td class="text">State *</td> 
+							<td>
+								<select id="state" onchange="createCity()" class="field">
+									<option>Select State</option>
+									<option value="Rajsthan">Rajasthan</option>
+									<option value="MP">Madhya Pradesh</option>
+									<option value="Maharastra">Maharastra</option>
+									<option value="UP">Uttar Pradesh</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td class="text">City *</td> 
+							<td>
+								<select id="city" class="field">
+									<option>Select City</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td class="text">Address *</td> 
+							<td><textarea id="address" rows="3" cols="20" maxlength="100" placeholder="Enter complete address" class="fieldarea"></textarea></td>
+						</tr>
+						<tr>
+							
+							<td colspan="2" align="center">
+								<input type="checkbox" id="check" onChange="activateSubmit()" class="fieldcheck">
+								<label for="check">I Accept All </label><a href="#">Terms & Condition</a>
+							</td>
+						</tr>
+						
+						
+						<tr>
+							<td colspan="2" align="center">
+								<input type="button" value="Create" id="submit" onclick="validate()" disabled class="button">
+							</td>
+						</tr>
+					</table>
+				</fieldset>
+		</form>
+		
+		
+	</body>
+</html>

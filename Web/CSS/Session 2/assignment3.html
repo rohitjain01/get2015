@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			*{
+				padding:0px;
+				margin:0px;
+			}
+			body{
+				padding:5px;
+				background-color:grey;
+			}
+			div {
+				margin: 5% auto;
+				width: 200px;
+				height: 200px;
+				background-color: red;
+				position: relative;
+				animation-name: example;
+				animation-duration: 4s;
+				animation-iteration-count: 3;
+			}
+
+			@keyframes example {
+				0%   {background-color:red; left:0px; top:0px;}
+				17%  {background-color:black; left:200px; top:100px;}
+				37%  {background-color:yellow; left:200px; top:200px;}
+				50%  {background-color:blue; left:0px; top:300px;}
+				68%  {background-color:green; left:-200px; top:200px;}
+				84%  {background-color:brown; left:-200px; top:100px;}
+				100% {background-color:red; left:0px; top:0px;}
+			}
+		</style>
+	</head>
+	<body>
+
+
+		<div></div>
+
+	</body>
+</html>

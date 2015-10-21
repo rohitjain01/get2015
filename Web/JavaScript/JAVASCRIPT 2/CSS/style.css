@@ -1,0 +1,61 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body {
+	margin-top: 20px;
+	background-color: lightgrey;
+}
+
+.textbox {
+	margin:3%;
+	height:25px;
+	width:160px;
+	border: 2px solid black;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.button{
+	height:25px;
+	width:80px;
+	font-size:12px;
+	font-weight:bold
+}
+
+.table2 {
+	border:3px solid black;
+	margin: 0px auto;
+	margin-top: 20px;
+	border-collapse: collapse;
+}
+		
+.table1 {
+	border:0px solid black;
+	margin: 0px auto;
+	margin-top: 20px;
+}
+
+tr{
+	border: 1px solid black;
+}
+
+.red {
+	background-color:red;
+	width:46px;
+	height:20px;
+	border: 0px black;
+}
+
+.notred {
+	width:46px;
+	height:20px;
+	border: 0px black;
+}
+
+.name {
+	height:20px;
+	padding:4px;
+	border-right: 3px solid black;
+}

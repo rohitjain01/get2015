@@ -1,0 +1,8 @@
+Oct 21, 2015 5:00:22 PM Loggerclass.LoggerClass catchException
+FINE: java.lang.ArithmeticException: / by zero
+Oct 21, 2015 5:00:22 PM Loggerclass.LoggerClass catchException
+FINE: java.lang.ArrayIndexOutOfBoundsException: 5
+Oct 21, 2015 5:00:32 PM Loggerclass.LoggerClass catchException
+FINE: java.lang.ArithmeticException: / by zero
+Oct 21, 2015 5:00:32 PM Loggerclass.LoggerClass catchException
+FINE: java.lang.ArrayIndexOutOfBoundsException: 5
