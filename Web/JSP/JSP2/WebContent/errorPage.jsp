@@ -8,7 +8,7 @@
 <title>Error Page</title>
 </head>
 <body>
-	<h1>Error In System </h1>
+	<h1>Error Occurred </h1>
 	<div>${error}</div>
 </body>
 </html>
