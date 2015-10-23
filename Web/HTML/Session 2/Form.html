@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Create Your Account</title>
+		<link rel = "stylesheet" type = "text/css" href = "style2.css"></link>
+	</head>
+
+
+	<body>
+		<form>
+			<fieldset>
+				<legend>::Registration::</legend>
+				<table>
+					<tr>	
+						<td class="text">* Name:</td>
+						<td><input type="text-box" required name="name" placeholder="Enter Your Name"  class="field" pattern="[a-zA-Z]{2,}[a-zA-Z ]{0,}"></td>
+					</tr>
+
+					<tr>	
+						<td class="text">* Email Id:</td>
+						<td><input type="email" required name="email" placeholder="Enter Your Email Id" class="field"> </td>
+					</tr>
+					
+					<tr>	
+						<td class="text">* Date Of Birth:</td>
+						<td><input type="date" required name="dob" class="field"> </td>
+					</tr>
+					
+					<tr>	
+						<td class="text">* Experience :</td>
+						<td><input type="range" min="0" max="10" value="0" step="1" required name="experience" class="field"> </td>
+					</tr>
+					
+					<tr>
+						<td  class="text" name="place">* Place :</td>
+						<td><input type="text" list="place" required placeholder="Select Your Residential City" class="field">
+							<datalist id="place">
+							<option value="Kota">
+							<option value="Jaipur">
+							<option value="Alwar">
+							<option value="Dehli">
+							<option value="Mumbai">
+							<option value="Ajmer">
+							<option value="Jhalawar">
+							<option value="Pali">
+							<option value="Other">
+							</td>
+					</tr>
+					<tr>
+						<td colspan="2" align="center"><input type="submit" class="button"></td>
+					</tr>
+					
+					
+				</table>
+			</fieldset>
+		</form>
+	</body>
+</html>			

@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<style> 
+		*{
+			padding:0px;
+			margin:0px;
+		}
+		body{
+			padding:5px;
+			background-color:grey;
+		}
+		.container {
+			margin-top:20px;
+			margin-left:40%;
+			width: 200px;
+			height: 200px;
+			background-color: lightblue;
+			border: 1px solid black;
+			text-align:center;
+		}
+		.div1:hover {
+			transform: scale(2,3);
+			transition-duration:5s;
+		}
+		.div2:hover {
+			transform: rotate(20deg);
+			transition-duration:5s;
+		}
+		.div3:hover {
+			transform: skew(20deg,10deg);
+			transition-duration:5s;
+		}
+		</style>
+	</head>
+	<body>
+
+		<div class=" container div1">
+			Scale div
+		</div><br><br>
+		<div class=" container div2">
+			Rotate div
+		</div><br><br>
+		<div class=" container div3">
+			Skew div
+		</div>
+	</body>
+</html>

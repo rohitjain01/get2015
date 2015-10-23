@@ -1,0 +1,44 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body {
+	background-color: lightgrey;
+}
+
+fieldset { 
+	width:500px;
+	height:400px;
+    margin: 0 auto;
+	margin-top:20px;
+	background-color: #CC99FF;
+    padding:16px;
+    border: 4px groove (internal value);
+	border-radius:10px;
+}
+
+legend {
+	font-size:20px;
+	font-weight:bold;
+}
+
+table{
+	margin:50px;
+}
+
+
+.text{
+	margin:10px;
+	text-align:right;
+}
+
+ .field{
+	margin:10px;
+	width:240px;
+}
+
+.button{
+	margin-top:6px;
+	font-weight:bold;
+}
