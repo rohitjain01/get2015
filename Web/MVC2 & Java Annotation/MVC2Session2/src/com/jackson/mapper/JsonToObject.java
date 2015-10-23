@@ -1,4 +1,8 @@
 /**
+<<<<<<< HEAD
+=======
+ * @author Rohit
+>>>>>>> ce829d0cf5a6a94730823e5ba175814fa33452fd
  * @created date 16/10/2015
  * @Name JsonToObject 
  * @description this is the class having method to convert JSon file to employee object
