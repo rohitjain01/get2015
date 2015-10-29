@@ -1,0 +1,310 @@
+@CHARSET "ISO-8859-1";
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body {
+
+	background-color: lightgrey;
+	
+}
+
+#wrapper{
+width:100%;
+margin: 0px auto;
+
+}
+
+header{
+	width:100%;
+	height:20%;
+	padding-top:1%;
+	padding-bottom:2%;
+	background-color:grey;
+}
+
+header h1{
+	margin-left: 45%;
+}
+
+header h3{
+	margin-left: 44.5%;
+}
+
+header img{
+	width:6.5%;
+	height:1%;
+	margin-top:-.5%;
+	float:left;
+}
+
+nav{
+	width:100%;
+	height:40px;
+	background-color:#339999;
+	text-align:center;
+	padding-top:1%;
+}
+
+.nav1{
+	text-align:left;
+}
+
+nav ul{
+	padding:.4%;
+	padding-left:0px;
+	list-style-type:none;
+}
+
+nav ul li{
+	padding:.4%;
+	display:inline;
+	padding-right:.6%;
+	margin-left:1%;
+	font-size:18px;
+	font-weight:bold;
+	border : 1px solid black;
+	border-radius:5px;
+}
+
+nav ul li a{
+	text-decoration: none;
+}
+
+ul li a:hover{
+	color :white;
+}
+
+.active{
+    background-color : #3399FF;
+}
+
+aside{width:100%;}
+
+
+
+iframe{
+text-decoration:none;
+width:100%;
+height:700px;
+border:0px;
+}
+
+.section1{
+	width:100%;
+	height:600px;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	background-image: url("../images/car1.jpg");
+	text-align:center;
+}
+
+
+h2{
+	color: #66FF00;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+
+.section1 form table{
+	margin: 0 auto;
+	margin-top:2%;
+}
+
+th{
+	font-size: 25px;
+}
+
+td{
+	font-size: 22px;
+}
+
+.text{
+	margin:10px;
+	text-align:right;
+	color: white;
+	font-weight: bold;
+}
+
+.text1{
+	margin:10px;
+	color: white;
+	font-weight: bold;
+}
+
+ .field{
+	margin:10px;
+	height:25px;
+	width:300px;
+	border: 2px solid white;
+	background: transparent;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.list{
+	margin:10px;
+	width:450px;
+	height:25px;
+	border: 2px solid white;
+	background: transparent;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.radioField{
+	margin:10px;
+}
+
+.button{
+	margin-top:6px;
+	width:100px;
+	height:30px;
+	font-size:16px;
+	font-weight:bold;
+}
+
+.alert1{
+	margin:10px;
+	text-align:center;
+	color: red;
+	font-weight: bold;
+}
+
+.section2{
+	width:100%;
+	height:500px;
+	
+	padding-top: 15%;
+	padding-bottom: 2%;
+	background-color: #CC99CC;
+	background-image: url("../images/car1.jpg");
+	text-align:center;
+}
+
+
+.section2 form table{
+	margin: 0 auto;
+	margin-top:2%;
+}
+
+.section3{
+	width:100%;
+	height:500px;
+	
+	padding-top: 5%;
+	padding-bottom: 2%;
+	background-color: #CC99CC;
+	background-image: url("../images/car2.jpg");
+	text-align:center;
+}
+
+.section3 form table{
+	margin: 0 auto;
+	margin-top:2%;
+}
+
+.section3 a{
+	color: #FF0000;
+	font-size:20px;
+	font-weight: bold;
+}
+
+.sectionAdmin{
+	width:100%;
+	height:600px;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	text-align:center;
+	background-image: url("../images/car3.jpg");
+	color: white;
+	font-weight: bold;
+	font-size: 28px;
+}
+
+.sectionAdmin h1{
+	font-size: 28px;
+	color: #8B008B;
+}
+
+.sectionAdmin table{
+	margin: 0 auto;
+	margin-top:2%;
+}
+
+.sectionAdmin a{
+	font-style: italic;
+	color: #8B0000;
+}
+
+.section4{
+	width:100%;
+	height:500px;
+	
+	padding-top: 6%;
+	padding-bottom: 2%;
+	background-color: #CC99CC;
+	background-image: url("../images/car4.jpg");
+	text-align:center;
+}
+
+
+.section4 form table{
+	margin: 0 auto;
+	margin-top:2%;
+	width:90%;
+	border: 2px solid white;
+	border-collapse: collapse;
+}
+
+.section4 form table tr td{
+	margin:10px;
+	color: White;
+	font-weight: bold;
+	border: 2px solid white;
+	padding: 5px;
+}
+
+.section4 form table tr th{
+	margin:10px;
+	color: red;
+	font-weight: bold;
+	border: 2px solid white;
+	padding: 5px;
+}
+
+.section4 form table tr td a{
+	font-style: italic;
+	color: #8A2BE2;
+	font-weight: bold;
+}
+
+.section5{
+	width:100%;
+	height:500px;
+	padding-top: 5%;
+	padding-bottom: 2%;
+	color: white;
+	background-color: black;
+}
+
+.section5 img{
+	float: left;
+	width: 30%;
+	height: 70%;
+	margin-left: 0.5%;
+	margin-right: 2%;
+}
+
+footer{
+	width:100%;
+	height:40%;
+	padding-top:2%;
+	padding-bottom:2%;
+	background-color:brown;
+	text-align:center;
+}
