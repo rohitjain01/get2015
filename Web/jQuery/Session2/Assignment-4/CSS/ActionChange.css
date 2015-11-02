@@ -1,0 +1,26 @@
+@CHARSET "ISO-8859-1";
+
+
+input {
+	width:200px;
+}
+
+textarea {
+	width:200px;	
+}
+
+div{
+	width: 200px;
+	height :100px;
+}
+
+table {
+	margin: 0 auto;
+	margin-top: 10%;
+	border: 1px solid black;
+	height: 70px;
+	padding:30px;
+	background-color: #84C6FF;
+}
+
+
