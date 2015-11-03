@@ -1,0 +1,9 @@
+div.container-fluid {
+	border: 3px solid blue;
+	margin: 2%;
+}
+.column{
+	background-color:#eee;
+    border: 1px solid #888;
+    border-radius:3px;
+}
