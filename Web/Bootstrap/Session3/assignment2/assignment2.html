@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Sample Form</title>
+
+		<script type = "text/javascript" src = "js/jquery-1.11.3.js"></script>
+		<script type = "text/javascript" src = "js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<style type="text/css">
+			span{
+				font-size: 4em;
+			}
+			
+		</style>
+		<script type="text/javascript">
+		$(document).ready(function(){
+			$("[data-toogle='tooltip']").tooltip();
+			$('[data-toggle="popover"]').popover();
+		});
+		
+		</script>
+</head>
+<body>
+		<span class="glyphicon glyphicon-film hidden-lg hidden-md hidden-sm"></span>
+		<h1 class="text-center hidden-xs">Sample Form</h1>
+		<div class="container-fluid well">
+			<form class="form-horizontal" role="form">
+				<div class="form-group form-group-lg form-group-md form-group-sm form-group-xs">
+					<label class="col-lg-1 col-md-2 col-sm-4 col-xs1" title="Movie Title" data-toggle="popover" data-placement="top" data-content="Please Enter Title of Movie" data-trigger="hover">Movie Title</label>
+					<div class="col-lg-5 col-md-4 col-sm-8 col-xs12" data-toggle="tooltip" title="Enter Movie Title" data-placement="right"><input type="text" class="form-control"></div>
+					<label class="col-lg-1 col-md-2 col-sm-4 col-xs1" title="Movie Genre" data-toggle="popover" data-placement="top" data-content="Please Select Genre of Movie" data-trigger="hover">Genre</label>
+					<div class="col-lg-5 col-md-4 col-sm-8 col-xs12" data-toggle="tooltip" title="Enter Genre" data-placement="right"><select class="form-control"><option class="disabled">Choose a genre</option></select></div>
+				</div>
+				<div class="form-group form-group-lg form-group-md form-group-sm form-group-xs">
+					<label class="col-lg-1 col-md-2 col-sm-4 col-xs1" title="Movie Director" data-toggle="popover" data-placement="top" data-content="Please Enter Director of Movie" data-trigger="hover">Director</label>
+					<div class="col-lg-2 col-md-4 col-sm-8 col-xs12" data-toggle="tooltip" title="Enter Director of Movie" data-placement="right"><input type="text" class="form-control"></div>
+					<label class="col-lg-1 col-md-2 col-sm-4 col-xs1" title="Movie Writer" data-toggle="popover" data-placement="top" data-content="Please Enter Writer of Movie" data-trigger="hover">Writer</label>
+					<div class="col-lg-2 col-md-4 col-sm-8 col-xs12" data-toggle="tooltip" title="Enter Writer of Movie" data-placement="right"><input type="text" class="form-control"></div>
+					<label class="col-lg-1 col-md-2 col-sm-4 col-xs1" title="Movie Producer" data-toggle="popover" data-placement="top" data-content="Please Enter Producer of Movie" data-trigger="hover">Producer</label>
+					<div class="col-lg-2 col-md-4 col-sm-8 col-xs12" data-toggle="tooltip" title="Enter Producer of Movie" data-placement="right"><input type="text" class="form-control"></div>
+					<label class="col-lg-1 col-md-2 col-sm-4 col-xs1"title="Movie Composer" data-toggle="popover" data-placement="top" data-content="Please Enter Composer of Movie" data-trigger="hover">Composer</label>
+					<div class="col-lg-2 col-md-4 col-sm-8 col-xs12" data-toggle="tooltip" title="Enter Composer of Movie" data-placement="right"><input type="text" class="form-control"></div>
+				</div>
+				<div class="form-group form-group-lg form-group-md form-group-sm form-group-xs">
+					<label class="col-lg-1 col-md-2 col-sm-4 col-xs1" title="Movie Website" data-toggle="popover" data-placement="top" data-content="Please Enter Website of Movie" data-trigger="hover">Website</label>
+					<div class="col-lg-5 col-md-4 col-sm-8 col-xs12" data-toggle="tooltip" title="Enter Website of Movie" data-placement="right"><input type="text" class="form-control"></div>
+					<label class="col-lg-1 col-md-2 col-sm-4 col-xs1" title="Movie Youtube Link" data-toggle="popover" data-placement="top" data-content="Please Enter Youtube url of Movie" data-trigger="hover">Youtube trailer</label>
+					<div class="col-lg-5 col-md-4 col-sm-8 col-xs12" data-toggle="tooltip" title="Enter Youtube Url Movie" data-placement="right"><input type="text" class="form-control"></div>
+				</div>
+				<div class="form-group form-group-lg form-group-md form-group-sm form-group-xs">
+					<label class="col-lg-1 col-md-1 col-sm-1 col-xs1" title="Movie Reviews" data-toggle="popover" data-placement="top" data-content="Please Enter Reviews of Movie" data-trigger="hover">Review</label>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs12"><textarea rows="8" cols="" class="form-control" data-toggle="tooltip" title="Enter your reviews" data-placement="right"></textarea></div>
+				</div>
+				<div class="form-group form-group-lg form-group-md form-group-sm form-group-xs">
+					<label class="col-lg-3 col-md-12 col-sm-12 col-xs12" title="Movie Rating" data-toggle="popover" data-placement="top" data-content="Please Enter Rating of Movie" data-trigger="hover">Rating</label>
+					<div class="col-lg-3 col-md-4 col-sm-4 col-xs12 text-danger"><input type="radio" name="optradio">&nbsp;Terrible</div>
+					<div class="col-lg-3 col-md-4 col-sm-4 col-xs12 text-primary"><input type="radio" name="optradio">&nbsp;Watchable</div>
+					<div class="col-lg-3 col-md-4 col-sm-4 col-xs12 text-success"><input type="radio" name="optradio">&nbsp;Best Ever</div>
+				</div>
+				<div class="form-group form-group-lg form-group-md form-group-sm form-group-xs">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs12 col-lg-push-4 col-md-push-4">
+						<input type="button" class="btn btn-default" value="Cancel">
+						<input type="button" class="btn btn-primary" value="Validate">
+						<input type="button" class="btn btn-success" value="Submit">
+						<input type="button" class="btn btn-danger" value="Delete">
+					</div>
+				</div>
+			</form>
+		</div>
+</body>
+</html>
