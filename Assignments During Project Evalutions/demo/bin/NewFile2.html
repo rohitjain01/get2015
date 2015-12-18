@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+	
+</head>
+<body>
+	<form>
+		<h3>Enter an Integer </h3>
+		<br>
+		<input type="text" id="t1">
+		<input type="button" onclick="abc()">
+	</form>
+	
+</body>
+<script type="text/javascript">
+		function abc(){
+			var x = document.getElementById("t1").value;
+			var n = parseInt(x);
+			document.write("<table border='1' width='50%'>");
+			var i;
+			for(i=0;i<n;i++) {
+				document.write("<tr><td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;</tr>");
+			}
+			document.write("</table>");
+		}
+	</script>
+</html>

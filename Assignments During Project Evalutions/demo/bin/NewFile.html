@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+	<script type="text/javascript">
+		function abc(){
+			if(document.getElementById("t1").value=="")
+				alert("text box is empty");
+			else{
+				if(document.getElementById("t2").value.length < 8)
+					alert("password is not of 8 characters");
+				else
+					alert("accepted");
+			}
+			
+		}
+	</script>
+</head>
+<body>
+	<form>
+		<input type="text" id="t1">
+		<br>
+		<input type="password" id="t2">
+		<br>
+		<input type="submit" onclick="abc()">
+	</form>
+</body>
+</html>
