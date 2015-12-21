@@ -1,5 +1,10 @@
 package demo;
 
+/**
+ * Remove deadlock
+ * @author Rohit
+ *
+ */
 public class DeadLockSolution {
 	   public static Object Lock1 = new Object();
 	   public static Object Lock2 = new Object();

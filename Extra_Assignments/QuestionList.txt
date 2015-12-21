@@ -1,0 +1,27 @@
+ Assignment Questions:--
+
+1. Why do we need parameterized constructor?
+
+2. Difference between int and Integer.
+
+3. What are String, StringBuffer and StringBuilder?
+
+4. Implementation of charAt().
+
+5. Usage of custom exception.
+
+6. Use of throw and throws keyword.
+
+7. Use of Google OAuth offline access.
+
+8. How to handle more than one transaction at a time on database?
+
+9. Implementation of deadlock condition and its prevention.
+
+10. How to encode/decode scripts?
+
+11. Implementation of call by reference and call by value.
+
+12. Use of Transactional annotation even when there is a single query.
+
+13. Logging Exceptions.

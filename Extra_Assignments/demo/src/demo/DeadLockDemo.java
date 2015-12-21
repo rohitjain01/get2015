@@ -1,4 +1,10 @@
 package demo;
+
+/**
+ * Class in which occur deadlock
+ * @author Rohit
+ *
+ */
 public class DeadLockDemo {
    public static Object Lock1 = new Object();
    public static Object Lock2 = new Object();
