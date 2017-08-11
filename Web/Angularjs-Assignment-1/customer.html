@@ -75,7 +75,7 @@
 								class="form-control" ng-model="customer.orders" required>
 							</label>
 						</div>
-						<div class="form-group"
+						<div class="form-group" >
 							<input type="submit" class="btn btn-primary"
 								ng-click="newcustomer()" Value="Add New Customer">
 						</div>
@@ -97,7 +97,7 @@
 				<div class="panel-body">
 					<strong>Customer Id :</strong> {{$index+1}}<br /> <strong>Address
 						:</strong> {{customer.address}}<br /> <strong>Orders :</strong> 
-						{{customer.orders}}</strong>
+						<strong>{{customer.orders}}</strong>
 				</div>
 			</div>
 		</div>
@@ -114,7 +114,7 @@
 
 		module.controller('customer', function($scope) {
 			$scope.listview1 = false;
-			$scope.customers = [{fname:"Babalu",lname:"Patidar",address:"Pratap Nagar",orders:4}];
+			$scope.customers = [{fname:"rohit",lname:"jain",address:"Pratap Nagar",orders:4}];
 
 			$scope.newcustomer = function() {
 				$scope.customers.push($scope.customer);
